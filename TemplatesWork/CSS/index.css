@@ -1,0 +1,312 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Ruda";
+  font-weight: 400;
+  background-color: #F5F5F5;
+  font-size: 1.6rem;
+}
+
+h1, h2 {
+  font-family: "Russo One";
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.text {
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+  margin-bottom: 1rem;
+}
+.tab:hover {
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 10px;
+  transition: 0.25s;
+  text-align: center;
+}
+.btn.grey {
+  background-color: #E0E0E0;
+  font-family: "Raleway";
+  border: solid 1px #E0E0E0;
+  font-weight: 700;
+}
+.btn.grey:hover {
+  background-color: #fff;
+  border: solid 1px #000000;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.numPhone, .email {
+  display: flex;
+  align-items: center;
+}
+.numPhone img, .email img {
+  margin-right: 1rem;
+}
+
+.callBack {
+  color: #EE6666;
+}
+.callBack:hover {
+  cursor: pointer;
+}
+
+.icon.leftTab {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #EE6666;
+  margin-right: 1rem;
+}
+
+/*Head*/
+.header {
+  background-color: #1F1F1F;
+  position: fixed;
+  width: 100%;
+}
+.header .head {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 0.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.header .head img {
+  margin-right: 1rem;
+}
+.header .headLocation {
+  display: flex;
+  align-items: center;
+}
+.header .headContacts {
+  display: flex;
+  align-items: center;
+}
+.header .headContacts div {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.headNav {
+  background-color: #fff;
+  width: 100%;
+  padding-top: 2.9rem;
+}
+.headNav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headNav .navbar {
+  width: 57rem;
+}
+.headNav .navbar .navTabs {
+  display: flex;
+  justify-content: flex-end;
+}
+.headNav .navbar .navTabs .tab {
+  margin-right: 1rem;
+}
+.headNav .logotype {
+  width: 27rem;
+  height: 10rem;
+  background-color: #C4C4C4;
+}
+.headNav .basketIcon {
+  display: flex;
+  align-items: center;
+}
+.headNav .basketIcon img {
+  margin-right: 1rem;
+}
+
+.main .container {
+  padding: 3rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main .leftBar {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 27rem;
+}
+.main .leftBarTabs {
+  display: flex;
+  align-items: center;
+  transition: 0.25s;
+  padding: 2rem 2rem;
+}
+.main .leftBarTabs:first-child {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.main .leftBarTabs:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.main .leftBarTabs:hover {
+  background-color: #E7E7E7;
+  cursor: pointer;
+}
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mainContent .levelUp {
+  display: flex;
+  justify-content: space-between;
+  width: 87rem;
+}
+.mainContent .levelUp .sliderContent {
+  width: 57rem;
+  height: 32rem;
+  padding: 2rem;
+  background-image: url(../img/mainbanner.png);
+}
+.mainContent .levelUp .sliderContent h1 {
+  color: #AAFFA8;
+}
+.mainContent .levelUp .sliderContent h2 {
+  color: #fff;
+}
+.mainContent .levelUp .miniBar {
+  width: 27rem;
+}
+.mainContent .levelUp .miniBar .shares {
+  width: 100%;
+  border-radius: 10px;
+  padding: 2rem;
+  background-color: #fff;
+}
+.mainContent .levelUp .miniBar .shares h2 {
+  font-family: "Raleway";
+  margin-bottom: 2rem;
+}
+.mainContent .levelUp .miniBar .shares .btn.unFill {
+  margin-top: 2.2rem;
+  border: solid 1px #EE6666;
+  padding: 1.5rem 2.2rem;
+  color: #EE6666;
+}
+.mainContent .levelUp .miniBar .shares .btn.unFill:hover {
+  background-color: #EE6666;
+  color: #fff;
+}
+.mainContent .levelUp .miniBar .priceList p.text {
+  margin: 1rem 0rem;
+}
+.mainContent .levelUp .miniBar .priceList .btn {
+  display: block;
+  padding: 1.5rem 5rem;
+}
+.main .popular {
+  width: 100%;
+}
+.main .popular h2 {
+  margin-bottom: 3rem;
+  font-family: "Raleway";
+}
+.main .popular .wrapper {
+  width: 100%;
+  padding: 2rem;
+  background-color: #fff;
+}
+.main .popular .wrapperNav {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.main .popular .wrapperNav .btn {
+  padding: 1rem;
+  margin-right: 4rem;
+}
+.main .popular .wrapper .cardList {
+  display: flex;
+}
+.main .popular .wrapper .cardList .card {
+  transition: 0.25s;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-right: 4rem;
+}
+.main .popular .wrapper .cardList .card p.text {
+  margin: 1rem 0rem;
+}
+.main .popular .wrapper .cardList .card h2 {
+  margin-bottom: 0;
+}
+.main .popular .wrapper .cardList .card:hover {
+  background-color: #E0E0E0;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #1F1F1F;
+  padding: 4rem 0rem 13rem 0rem;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .container .toCompany, .footer .container .toClient, .footer .container .contacts {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: "Raleway";
+  font-weight: 300;
+}
+.footer .container .toCompany h2, .footer .container .toClient h2, .footer .container .contacts h2 {
+  font-family: "Raleway";
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.footer .container .toCompany a, .footer .container .toClient a, .footer .container .contacts a {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.footer .container .toClient {
+  width: 40rem;
+}
+.footer .container .contacts .callBack.btn {
+  padding: 1rem;
+  border: 1px solid #EE6666;
+}
+.footer .container .contacts .callBack.btn:hover {
+  background-color: #EE6666;
+  color: #fff;
+}
+.footer .container .contacts > div {
+  margin-bottom: 1rem;
+}
