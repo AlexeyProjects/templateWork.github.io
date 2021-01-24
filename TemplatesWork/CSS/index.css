@@ -28,6 +28,10 @@ h2 {
   font-size: 2rem;
 }
 
+.noScroll {
+  overflow: hidden;
+}
+
 .text {
   font-size: 1.6rem;
 }
@@ -261,6 +265,12 @@ h2 {
   border-radius: 10px;
   margin-right: 4rem;
 }
+.main .popular .wrapper .cardList .card .descr {
+  display: none;
+}
+.main .popular .wrapper .cardList .card .artik {
+  display: none;
+}
 .main .popular .wrapper .cardList .card p.text {
   margin: 1rem 0rem;
 }
@@ -309,4 +319,53 @@ h2 {
 }
 .footer .container .contacts > div {
   margin-bottom: 1rem;
+}
+
+.pop-up {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+}
+.pop-up-body {
+  width: 50%;
+  height: 50rem;
+  margin: 10rem auto;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.pop-up #cardNew .cartContent {
+  display: flex;
+}
+.pop-up #cardNew .cartContent-order {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.pop-up #cardNew .cartContent img {
+  width: 20rem;
+}
+.pop-up #cardNew .cartContent .stepper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 5rem;
+}
+.pop-up #cardNew .cartContent .stepper div:first-child:hover, .pop-up #cardNew .cartContent .stepper div:last-child:hover {
+  cursor: pointer;
+}
+.pop-up #cardNew p.name {
+  font-size: 2rem;
+}
+.pop-up #cardNew p.artik {
+  font-size: 1.6rem;
+  color: #C1C1C1;
+  opacity: 0.8;
+}
+.pop-up #cardNew p.price {
+  font-family: "Source Sans Pro";
+  font-size: 3.6rem;
 }

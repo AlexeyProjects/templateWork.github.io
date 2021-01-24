@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Агрозапчасть63</title>
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/fonts.css">
 
@@ -98,30 +98,48 @@
 							<div class="btn grey">Техника</div>
 						</div>
 						<div class="cardList">	
-							<div class="card">
-								<img src="img/card.png" alt="Карточка товара">
-								<p class="text">Комбайнер</p>
-								<h2>216 999</h2>
+							<div class="card" id="card1" onclick="getChild(this)">
+								<img class="cardImg" src="img/card.png" alt="Карточка товара">
+								<p class="cardName text">Комбайнер</p>
+								<h2 class="cardPrice">216 999</h2>
+								<p class="artik">Код товара: Н000002990</p>
+								<p class="descr">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Quod optio dolorum modi quia, totam. Dicta velit sit harum laborum fuga, esse incidunt blanditiis aliquid? Suscipit a sed laboriosam? Corporis, repellendus.</p>
 							</div>
-							<div class="card">
+							<div class="card" id="card2" onclick="getChild(this)">
 								<img src="img/card.png" alt="Карточка товара">
-								<p class="text">Комбайнер</p>
-								<h2>216 999</h2>
+								<p class="cardName text">Комбайнер</p>
+
+								<h2>100 999</h2>
+								<p class="artik">Код товара: Н000002990</p>
+								<p class="descr">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Quod optio dolorum modi quia, totam. Dicta velit sit harum laborum fuga, esse incidunt blanditiis aliquid? Suscipit a sed laboriosam? Corporis, repellendus.</p>
 							</div>
-							<div class="card">
+							<div class="card" id="card3" onclick="getChild(this)">
 								<img src="img/card.png" alt="Карточка товара">
 								<p class="text">Комбайнер</p>
 								<h2>216 999</h2>
+								<p class="artik">Код товара: Н000002990</p>
+								<p class="descr">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Quod optio dolorum modi quia, totam. Dicta velit sit harum laborum fuga, esse incidunt blanditiis aliquid? Suscipit a sed laboriosam? Corporis, repellendus.</p>
 							</div>
-							<div class="card">
+							<div class="card" id="card4" onclick="getChild(this)">
 								<img src="img/card.png" alt="Карточка товара">
 								<p class="text">Комбайнер</p>
 								<h2>216 999</h2>
+								<p class="artik">Код товара: Н000002990</p>
+								<p class="descr">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Quod optio dolorum modi quia, totam. Dicta velit sit harum laborum fuga, esse incidunt blanditiis aliquid? Suscipit a sed laboriosam? Corporis, repellendus.</p>
 							</div>
-							<div class="card">
+							<div class="card" id="card5" onclick="getChild(this)">
 								<img src="img/card.png" alt="Карточка товара">
 								<p class="text">Комбайнер</p>
 								<h2>216 999</h2>
+								<p class="artik">Код товара: Н000002990</p>
+								<p class="descr">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Quod optio dolorum modi quia, totam. Dicta velit sit harum laborum fuga, esse incidunt blanditiis aliquid? Suscipit a sed laboriosam? Corporis, repellendus.</p>
+							</div>
+							<div class="card" id="card6" onclick="getChild(this)">
+								<img src="img/card.png" alt="Карточка товара">
+								<p class="text">Комбайнер</p>
+								<h2>216 999</h2>
+								<p class="artik">Код товара: Н000002990</p>
+								<p class="descr">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Quod optio dolorum modi quia, totam. Dicta velit sit harum laborum fuga, esse incidunt blanditiis aliquid? Suscipit a sed laboriosam? Corporis, repellendus.</p>
 							</div>
 						</div>	
 					</div>
@@ -153,6 +171,25 @@
 			</div>	
 		</div>
 	</div>
-
+	<div class="pop-up" id="orderPopup">
+		<div class="pop-up-body">
+			<div id="cardNew">
+				<p class="name"></p>
+				<p class="artik"></p>
+				<div class="cartContent">
+					<img class="imgCart" src="" alt="">
+					<div class="cartContent-order">
+						<div class="stepper">
+							<div>+</div><div class="qty"></div><div>-</div>
+						</div>
+					<p class="price"></p>
+					</div>
+				</div>
+				<p class="descr"></p>
+				<div class="btn order">Оформить заказ</div>
+			</div>
+		</div>
+	</div>
+<script src="js/cart.js"></script>
 </body>
 </html>
