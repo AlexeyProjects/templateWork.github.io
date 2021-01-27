@@ -183,7 +183,8 @@ h2 {
 						width: 57rem;
 						height: 32rem;
 						padding: 2rem;
-						background-image: url(../img/mainbanner.png);
+						position: absolute;
+						z-index: 99;
 						h1{	
 							color: #AAFFA8;
 						}
@@ -321,6 +322,7 @@ h2 {
 	position: fixed;
 	background-color: rgba(0,0,0,0.5);
 	top: 0;
+	z-index: 9999;
 	&-body{
 		width: 50%;
 		height: 50rem;
