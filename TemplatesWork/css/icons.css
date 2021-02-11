@@ -1,0 +1,22 @@
+.icon {
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-right: 1rem;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.tehnika.icon {
+	background-image: url(../img/icons/tehnika.svg);
+}
+.zapchasti.icon {
+	background-image: url(../img/icons/zapchasti.svg);
+}
+.zhivotnov.icon {
+	background-image: url(../img/icons/zhivotnov.svg);
+}
+.podship.icon {
+	background-image: url(../img/icons/podship.svg);
+}
+.tehizdel.icon {
+	background-image: url(../img/icons/tehizdel.svg);
+}

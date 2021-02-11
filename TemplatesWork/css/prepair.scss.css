@@ -1,0 +1,10 @@
+.filter {
+	width: 100%;
+	&-block {
+		width: 100%;
+		padding: 2rem;
+		.tab {
+			margin-right: 1.5rem;
+		}
+	}
+}
