@@ -89,6 +89,12 @@ h2 {
 .btn:hover {
   cursor: pointer;
 }
+.btn.buy {
+  float: right;
+  background-color: #EE6666;
+  padding: 1.6rem 4.5rem;
+  color: #fff;
+}
 
 .numPhone, .email {
   display: flex;
